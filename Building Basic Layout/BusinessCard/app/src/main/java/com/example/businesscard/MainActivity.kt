@@ -113,7 +113,7 @@ fun cardContact() {
                 modifier = Modifier
                     .size(24.dp)
                     .background(color = Color(0xFFCDDCA3)),
-                tint= Color(0xFFCDDCA3)
+                tint= Color.Black
             )
             Text(
                 text = stringResource(R.string.sarveshNo),
@@ -130,7 +130,7 @@ fun cardContact() {
                 painter = share,
                 contentDescription = null,
                 modifier = Modifier.size(24.dp).background(color = Color(0xFFCDDCA3)),
-                tint= Color(0xFFCDDCA3)
+                tint= Color.Black
             )
             Text(
                 text = stringResource(R.string.sarveshappdev),
@@ -147,7 +147,7 @@ fun cardContact() {
                 painter = email,
                 contentDescription = null,
                 modifier = Modifier.size(24.dp).background(color = Color(0xFFCDDCA3)),
-                tint= Color(0xFFCDDCA3)
+                tint= Color.Black
             )
             Text(
                 text = stringResource(R.string.sarveshkhamkar321_gmail_com),

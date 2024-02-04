@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Happy Bithday App</string>
-    <string name="happy_bithday_sarvesh">Happy Bithday Sarvesh</string>
-    <string name="siddhi">Siddhi</string>
+    <string name="happy_bithday_sarvesh">Happy Bithday Sarvesh!</string>
+    <string name="from_siddhi">Siddhi</string>
 </resources>

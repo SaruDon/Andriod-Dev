@@ -61,7 +61,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingPreview() {
     HappyBithdayAppTheme {
-        GreetingImage(text = stringResource(R.string.happy_bithday_sarvesh), from = stringResource(R.string.siddhi))
+        GreetingImage(text = stringResource(R.string.happy_bithday_sarvesh), from = stringResource(R.string.from_siddhi))
     }
 }
 
@@ -77,7 +77,7 @@ fun GreetingText(text: String, from: String, modifier: Modifier = Modifier) {
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier
-                .padding(16.dp)
+                .padding(8.dp)
                 .fillMaxSize()
         ) {
             Text(
@@ -90,7 +90,7 @@ fun GreetingText(text: String, from: String, modifier: Modifier = Modifier) {
                 text = from,
                 fontSize = 36.sp,
                 modifier = Modifier
-                    .padding(16.dp)
+                    .align(Alignment.End).padding(0.dp,0.dp,20.dp,0.dp)
             )
         }
     }
