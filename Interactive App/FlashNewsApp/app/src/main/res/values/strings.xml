@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Flash News App</string>
+    <string name="next">Next</string>
+    <string name="prev">previous</string>
+    <string name="tapToKnow">Tap to know more</string>
+    <string name="airforce">Helicopter</string>
+    <string name="badweather">
+IMD predicts heavy rainfall, snow for THESE states in next 24 hours, issues red alert</string>
+    <string name="badweatherFullNews">Rain lashed parts of plains in Kashmir while higher reaches including the Pir Panjal Range of Poonch district received fresh snowfall on Sunday. India Meteorological Department (IMD) has issued a red alert for Jammu Kashmir-Ladakh-Gilgit-Baltistan-Muzaffarabad, Himachal Pradesh and Uttarakhand as these places are likely to witness heavy to very heavy rainfall and snowfall at isolated places on Monday i.e. February 19, 2024.
+
+The weather department has also forecasted an intense spell of rainfall or snowfall activity over the Western Himalayan region between February 18 to 21 and the plains of Northwest India between February 19 to 21 due to western disturbances.</string>
+    <string name="badweathedate">18 Feb 2024</string>
+    <string name="budgetsmalldesc">Budget 2024: MOSL prefers PSU banks, industrials, real estate; SBI, ICICI Bank among top stock ideas</string>
+    <string name="budgetDate">5 Feb 2024</string>
+    <string name="newsBudget">The Interim Union Budget was presented by Finance Minister Nirmala Sitharaman on February 1. The full budget will be announced in July after the formation of the new government in May.
+
+Reviewing the budget, brokerage house Motilal Oswal noted that the government did not announce any new schemes or incentives and followed the fiscal deficit consolidation path by maintaining its investment-led spending growth strategy.
+
+In stark contrast to the market expectations of 5.3-5.4% of GDP (and MOSL forecast of 5.2 percent of GDP), the Government of India (GoI) has budgeted a fiscal deficit of 5.1 percent of GDP for FY25, implying a consolidation of 70 basis points (bp) next year. Moreover, the GoI has also lowered its deficit target for FY24 to 5.8 percent of GDP, notwithstanding the fact that the nominal GDP growth estimate for FY24 was also revised down.
+
+Read here: Budget 2024: Delicate balancing by government testament to stability, growth
+"The Vote-on-Account was presented against the backdrop of a bullish macro and micro environment for India, with equity markets reaching new highs. Further, this was the last budget before the forthcoming Lok Sabha Elections in Apr-May 2024, and thus expectations of some populism were not unfounded considering the underlying weak consumption demand in the economy, especially in rural India," stated the brokerage.
+
+However, the budget has eschewed populism and instead adhered to the path of fiscal consolidation without making any populist announcements for any section of the society, it added.
+
+The brokerage further pointed out that as in the recent past, the budget math appears quite credible with 10.5 percent nominal GDP growth and a 5.1 percent fiscal deficit for FY25E. This highlights the government’s intent to achieve the 4.5% fiscal deficit target committed for FY26. This will keep the 10Y yields under check and provide a conducive framework for higher private capex in the economy, it noted.
+
+Read here: ‘Full budget will follow fiscal journey set out in interim budget’
+Moreover, sticking to fiscal consolidation in a year of high-stakes general elections augurs well strategically from the country’s rating perspective, even as India prepares for its inclusion in the global bond indices.
+
+Consumption, however, has not received any push in the budget from a near-term perspective. Therefore, to that extent, it’s a dampener. Corporate earnings in Q3FY24 have once again highlighted the prevailing weak consumption demand in the economy, observed MOSL.
+
+</string>
+<string name="budgetimgDesc">Budget</string>
+    <string name="airforceSmallDesc">
+Indian Air Force Chinook helicopter makes precautionary landing in Punjab due to technical snag</string>
+    <string name="airforceDate">18 Feb 2023</string>
+    <string name="airForceNews">A Chinook helicopter of the Indian Air Force made a precautionary landing in an open field in Punjab around the Barnala area due to a technical snag. The crew and the chopper are safe: IAF officials.
+
+The Chinook is a multi-role, vertical-lift platform, which is used for transporting troops, artillery, equipment and fuel.
+
+It is also used for humanitarian and disaster relief operations and in missions such as transportation of relief supplies and mass evacuation of refugees.
+
+India had finalised a contract in September 2015 to procure 22 Apache helicopters and 15 Chinook choppers from the US at a cost of around USD 3 billion.
+
+Unlock a world of Benefits! From insightful newsletters to real-time stock tracking, breaking news and a personalized newsfeed</string>
+
+</resources>

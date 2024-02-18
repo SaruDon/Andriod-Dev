@@ -70,35 +70,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 }
 
 
-@VisibleForTesting
-internal fun calCulateTip(amount: Double,tipPercenatage: Double,roundUp: Boolean): String{
-    var tip = (tipPercenatage/100)*amount
-    if (roundUp) {
-        tip = kotlin.math.ceil(tip)
-    }
-    return NumberFormat.getCurrencyInstance().format(tip)
-}
 
-@Composable
-fun RoundTheTipRow(
-    roundUp: Boolean,
-    onRoundUpChanged: (Boolean) -> Unit,
-    modifier: Modifier = Modifier
-){
-    Row(modifier = modifier
-        .fillMaxWidth()
-        .size(48.dp)
-        .padding(10.dp),
-        verticalAlignment = Alignment.CenterVertically) {
-        Text(
-            text = stringResource(R.string.round_up_tip)
-        )
-        Switch(
-            checked = roundUp,
-            onCheckedChange = onRoundUpChanged,
-        )
-    }
-}
 
 @Composable
 fun TipCalculator(){
@@ -148,7 +120,7 @@ fun TipCalculator(){
                    imeAction = ImeAction.Done
                )
                )
-           RoundTheTipRow(
+           RoundUpTheTipRow(
                roundUp = roundUp,
                onRoundUpChanged = { roundUp = it },
                modifier = Modifier.padding(bottom = 32.dp)
@@ -163,6 +135,17 @@ fun TipCalculator(){
 }
 
 
+
+
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    MyApplicationTheme {
+        TipCalculator()
+    }
+}
+
 @Composable
 fun EditNumberField(
     @StringRes label: Int,
@@ -176,7 +159,7 @@ fun EditNumberField(
         leadingIcon = {
             Icon(painter = painterResource(id = leadingIcon),
                 null,Modifier.size(35.dp))
-                      },
+        },
         value = value,
         onValueChange = onValueChange,
         singleLine = true,
@@ -187,13 +170,34 @@ fun EditNumberField(
         modifier = modifier
     )
 }
+@VisibleForTesting
 
+//by internal keyword we can another module can not  access this specific code
+internal fun calCulateTip(amount: Double,tipPercenatage: Double,roundUp: Boolean): String{
+    var tip = (tipPercenatage/100)*amount
+    if (roundUp) {
+        tip = kotlin.math.ceil(tip)
+    }
+    return NumberFormat.getCurrencyInstance().format(tip)
+}
 
-
-@Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
-    MyApplicationTheme {
-        TipCalculator()
+fun RoundUpTheTipRow(
+    roundUp: Boolean,
+    onRoundUpChanged: (Boolean) -> Unit,
+    modifier: Modifier = Modifier
+){
+    Row(modifier = modifier
+        .fillMaxWidth()
+        .size(48.dp)
+        .padding(10.dp),
+        verticalAlignment = Alignment.CenterVertically) {
+        Text(
+            text = stringResource(R.string.round_up_tip)
+        )
+        Switch(
+            checked = roundUp,
+            onCheckedChange = onRoundUpChanged,
+        )
     }
 }
