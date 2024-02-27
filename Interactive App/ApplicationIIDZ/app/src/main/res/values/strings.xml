@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignment IDZ Digital</string>
+    <string name="welcome">Welcome user</string>
+    <string name="enterDetails">Please enter your details</string>
+    <string name="Name">Name</string>
+    <string name="enterName">Enter Name</string>
+    <string name="enterDate">Enter Date</string>
+    <string name="enterEmail">Enter Email</string>
+    <string name="enteremailId">Enter your EmailId</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="RegSus">Registration SuccessFul</string>
+    <string name="deitalsReg">Your Details are Submitted successfully</string>
+</resources>
