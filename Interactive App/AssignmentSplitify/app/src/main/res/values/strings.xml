@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">SPLITIFY</string>
+    <string name="monthly_exp">Monthly expenses tracker</string>
+    <string name="past_price">Past Prices</string>
+    <string name="this_month_exp">This month</string>
+    <string name="show_exp">Show Expenses</string>
+    <string name="spent_by">Spent by:</string>
+    <string name="Alice">Alice</string>
+    <string name="John">John</string>
+    <string name="Mike">Mike</string>
+    <string name="Person4">Person 4</string>
+    <string name="Person5">Person 5</string>
+    <!-- Add more string resources for other persons as needed -->
+    <string name="Person6">Person 6</string>
+    <string name="Person7">Person 7</string>
+    <string name="Person8">Person 8</string>
+    <string name="Person9">Person 9</string>
+    <string name="Person10">Person 10</string>
+    <string name="Person11">Person 11</string>
+    <string name="Person12">Person 12</string>
+    <string name="Person13">Person 13</string>
+    <string name="Person14">Person 14</string>
+    <string name="Person15">Person 15</string>
+    <string name="Person16">Person 16</string>
+    <string name="Person17">Person 17</string>
+    <string name="Person18">Person 18</string>
+    <string name="Person19">Person 19</string>
+    <string name="Person20">Person 20</string>
+    <string name="title_activity_history">History</string>
+
+    <string name="expHistory">Expense History</string>
+    <string name="price">Price: </string>
+    <string name="paid_by">Paid by: </string>
+    <string name="Onion">Onions</string>
+    <string name="mike">Mike</string>
+    <string name="Eggs">Eggs</string>
+    <string name="sugar">Sugar</string>
+    <string name="list1">Oil,Bread</string>
+    <string name="item">Item: </string>
+
+
+    <string name="Date1">29-04-2023 08:43</string>
+    <string name="Date2">15-06-2023 14:21</string>
+    <string name="Date3">02-09-2023 10:05</string>
+    <string name="Date4">18-11-2023 16:37</string>
+
+</resources>
